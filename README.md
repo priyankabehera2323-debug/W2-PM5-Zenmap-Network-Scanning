@@ -1,9 +1,5 @@
 # W2-PM5 – Network Scanning with Zenmap
 
-## Author
-
-**Priyanka Behera**
-
 ## Project Overview
 
 This project documents a basic network-scanning exercise using Zenmap, the graphical user interface for Nmap. The scan was performed only on an authorized local network to identify the local subnet, discover active hosts, record available MAC-address information, and save network topology evidence.
@@ -23,9 +19,10 @@ This project documents a basic network-scanning exercise using Zenmap, the graph
 
 ```text
 W2-PM5-Zenmap-Network-Scanning/
-├── screenshots/
+├── ├── screenshots/
 │   ├── task1-zenmap-ping-scan.png
-│   └── task2-topology-legend.png
+│   ├── task2-topology-legend.png
+│   └── task3-network-topology-graph.png
 ├── outputs/
 │   └── zenmap-ping-scan.txt
 ├── topology/
@@ -120,6 +117,8 @@ The saved topology output shows:
 - `10.138.131.135` — local scanning host
 - `localhost` — central reference node
 
+![Network topology graph](screenshots/task3-network-topology-graph.png)
+
 The topology legend (host and traceroute icon key) is captured separately for reference:
 
 ![Topology legend](screenshots/task2-topology-legend.png)
@@ -150,6 +149,7 @@ The topology legend (host and traceroute icon key) is captured separately for re
 
 - `outputs/zenmap-ping-scan.txt` — raw scan output
 - `screenshots/task1-zenmap-ping-scan.png` — Zenmap interface showing the scan and results
+- `screenshots/task3-network-topology-graph.png` — saved topology diagram (rendered from the PDF)
 - `screenshots/task2-topology-legend.png` — topology icon/legend reference
 - `topology/W2-PM5-Zenmap-Topology.pdf` — saved topology diagram
 
