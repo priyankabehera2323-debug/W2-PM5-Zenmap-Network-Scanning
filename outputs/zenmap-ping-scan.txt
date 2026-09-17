@@ -1,0 +1,11 @@
+Target: 10.138.131.0/24
+Profile: Ping scan
+Command: nmap -sn 10.138.131.0/24
+
+Starting Nmap 7.991 ( https://nmap.org ) at 2026-09-16 11:17 +0530
+Nmap scan report for 10.138.131.135
+Host is up (0.0040s latency).
+MAC Address: 36:31:30:CE:E6:46 (Unknown)
+Nmap scan report for 10.138.131.30
+Host is up.
+Nmap done: 256 IP addresses (2 hosts up) scanned in 9.94 seconds
